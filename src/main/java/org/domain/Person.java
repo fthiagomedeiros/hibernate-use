@@ -1,8 +1,14 @@
 package org.domain;
 
+import javax.persistence.*;
+
+@Entity
 public class Person {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
+
     private String name;
 
     public Person() {

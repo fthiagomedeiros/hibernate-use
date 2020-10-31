@@ -14,7 +14,6 @@
         <property name="hibernate.connection.password"/>
         <property name="hibernate.connection.url">jdbc:hsqldb:mem:howtodoinjava</property>
         <property name="hibernate.hbm2ddl.auto">create</property>
-        <mapping resource="person.hbm.xml"/>
     </session-factory>
 
 </hibernate-configuration>
